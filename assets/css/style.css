@@ -8545,15 +8545,23 @@ h6 {
 
 }
 
-.contact-form input,textarea{
+
+.contact-form input, textarea{
     border: 2px solid #1b5364;
     margin: 15px 0 10px;
+    text-align: center;
+}
+
+.contact-form button{
+    background-color: #002c3a;
+    border: 0px;
+    color: #fff;
 }
 
 .contact-form ::placeholder {
     color: #002c3a;
     font-weight: bold;
-  }
+}
 
 /*--------------------------------------------------------------
 # Product
