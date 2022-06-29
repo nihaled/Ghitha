@@ -538,10 +538,9 @@
         width: 100%;
     }
     .about_img_2 {
-        left: 0;
-        right: 0;
-        bottom: 0;
-        position: relative;
+        left: 30%;
+    bottom: -20%;
+        position: absolute;
     }
     .service_one {
         padding: 120px 0 90px;
@@ -1276,7 +1275,7 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
     .stricked-menu {
         display: none;
     }
