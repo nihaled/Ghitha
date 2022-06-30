@@ -2081,8 +2081,8 @@ h6 {
     position: relative;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100vh;
+    /* width: 100%; */
+    /* height: 100vh; */
     opacity: 1;
     z-index: 0;
     background-repeat: no-repeat;
@@ -2095,7 +2095,11 @@ h6 {
 
 @media (max-width:400px){
     .banner-section .image-layer{
-        height: 40vh;
+        /* height: 40vh; */
+    }
+
+    .site-header__header-one-wrap{
+        position: relative;
     }
 
 }
