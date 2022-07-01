@@ -8449,8 +8449,10 @@ h6 {
     position: relative;
     display: block;
     padding: 120px 60px 120px;
-    margin-right: -20px;
+    /* margin-right: -20px; */
     z-index: 1;
+    background: var(--thm-primary);
+
 }
 
 

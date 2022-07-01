@@ -424,7 +424,7 @@
         margin-bottom: 40px;
     }
     .contact-one__form__wrap:before {
-        right: -10000px;
+        /* right: -10000px; */
     }
     .have_questions {
         margin-left: 0;
