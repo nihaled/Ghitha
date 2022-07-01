@@ -8649,7 +8649,6 @@ h6 {
 
 .contact-social a {
     display: -webkit-box;
-    display: flex inline;
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
@@ -8674,6 +8673,10 @@ h6 {
     color: #ffffff;
 }
 
+.contact-social .linkinline{
+    display: flex inline;
+
+}
 /*--------------------------------------------------------------
 # Product
 --------------------------------------------------------------*/
